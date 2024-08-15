@@ -1,0 +1,15 @@
+/* can also be .button1, .button 2 but i think body is considered
+for now since there are no other tags present */
+body {
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", "sans-serif";
+}
+
+.button1 {
+    background-color: black;
+    color: white;
+}
+
+.button2 {
+    background-color: yellow;
+}
