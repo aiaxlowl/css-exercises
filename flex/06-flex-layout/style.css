@@ -2,18 +2,64 @@
 
 body {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
 
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+/* content */
+.content {  
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+
+/* footer */
+.footer { 
+  background-color: #eeeeee;
+}
+
+/* general attributes */
+.header, .footer {
+  padding: 5px;  
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 10px;
+  padding: 0 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a { 
+  text-decoration: none;
+  color: gray;
+}
+
 img {
   width: 600px;
+  margin: 15px;
 }
 
 button {
   font-family: Roboto, sans-serif;
   border: none;
+  padding: 8px 16px;
   border-radius: 8px;
   background: #eee;
 }
